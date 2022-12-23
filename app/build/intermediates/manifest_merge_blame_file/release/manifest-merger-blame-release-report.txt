@@ -1,0 +1,58 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.app.airbook" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml
+9
+10    <application
+10-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:5:5-28:19
+11        android:allowBackup="true"
+11-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:6:9-35
+12        android:dataExtractionRules="@xml/data_extraction_rules"
+12-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:7:9-65
+13        android:fullBackupContent="@xml/backup_rules"
+13-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:8:9-54
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:9:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:10:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:11:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:12:9-35
+18        android:theme="@style/Theme.AirBookApplication"
+18-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:13:9-56
+19        tools:targetApi="31" >
+19-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:14:9-29
+20        <activity
+20-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:15:9-27:20
+21            android:name="com.app.airbook.AirBookMainActivity"
+21-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:16:13-48
+22            android:exported="true" >
+22-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:17:13-36
+23            <intent-filter>
+23-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:18:13-22:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:19:17-69
+24-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:19:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:21:17-77
+26-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:21:27-74
+27            </intent-filter>
+28
+29            <meta-data
+29-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:24:13-26:36
+30                android:name="android.app.lib_name"
+30-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:25:17-52
+31                android:value="" />
+31-->C:\Users\Varsha\Documents\AndroidProjects\AirBook_21_12_2022\AirBookApplication\app\src\main\AndroidManifest.xml:26:17-33
+32        </activity>
+33    </application>
+34
+35</manifest>

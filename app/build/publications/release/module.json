@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.airbook",
+    "module": "AirBookLibrary",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "AirBookLibrary-1.0.0.aar",
+          "url": "AirBookLibrary-1.0.0.aar",
+          "size": 43963,
+          "sha512": "9496b08b554be2dbfc4a6ed2438aced0cb2a4d31bd18abad081a6229018e23c2145814e63156e72a773473c84bdc8001e331b006977981c9e3990d9d03a7ca9a",
+          "sha256": "a5db79ba5763b93cf88c92e69493d15d978ca62c59e3d1cb03477b2585ee5724",
+          "sha1": "5d59baca1b98ab47f55fe377605d17ee14670acb",
+          "md5": "2a5885eb29fdaaa8d9882b2663a7098c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "AirBookLibrary-1.0.0.aar",
+          "url": "AirBookLibrary-1.0.0.aar",
+          "size": 43963,
+          "sha512": "9496b08b554be2dbfc4a6ed2438aced0cb2a4d31bd18abad081a6229018e23c2145814e63156e72a773473c84bdc8001e331b006977981c9e3990d9d03a7ca9a",
+          "sha256": "a5db79ba5763b93cf88c92e69493d15d978ca62c59e3d1cb03477b2585ee5724",
+          "sha1": "5d59baca1b98ab47f55fe377605d17ee14670acb",
+          "md5": "2a5885eb29fdaaa8d9882b2663a7098c"
+        }
+      ]
+    }
+  ]
+}
